@@ -17,4 +17,4 @@ markovModel = tfd.HiddenMarkovModel(
 weatherMean = markovModel.mean()
 
 with tf.compat.v1.session as sess:
-    print(mean.numpy())
+    print(weatherMean.numpy())
